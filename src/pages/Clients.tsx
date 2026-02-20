@@ -23,8 +23,8 @@ export default function Clients() {
       <div className="bg-gradient-to-b from-forest-500 to-forest-600 px-4 pt-12 pb-6">
         <div className="flex justify-between items-start">
           <div>
-            <p className="text-forest-100 text-sm">Materials Tracker</p>
-            <h1 className="text-3xl font-bold text-white">Clients</h1>
+            <p className="text-forest-100 text-sm leading-normal">Materials Tracker</p>
+            <h1 className="text-3xl font-bold text-white leading-tight mt-1">Clients</h1>
           </div>
           <div className="flex gap-2 pt-1">
             <button

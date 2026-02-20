@@ -14,13 +14,13 @@ export default function ClientCard({ client, onClick }: ClientCardProps) {
       {/* Top section */}
       <div className="flex justify-between items-start">
         <div className="flex-1 min-w-0">
-          <h3 className="text-base font-semibold text-forest-800 truncate">
+          <h3 className="text-base font-semibold text-forest-800 leading-snug truncate">
             {client.name}
           </h3>
           {client.contact_name && (
-            <p className="text-sm text-forest-400 truncate">{client.contact_name}</p>
+            <p className="text-sm text-forest-400 leading-normal mt-0.5 truncate">{client.contact_name}</p>
           )}
-          <div className="flex items-center gap-1 mt-1">
+          <div className="flex items-center gap-1.5 mt-1.5">
             <svg className="w-3.5 h-3.5 text-forest-400 shrink-0" fill="currentColor" viewBox="0 0 20 20">
               <path fillRule="evenodd" d="M5.05 4.05a7 7 0 119.9 9.9L10 18.9l-4.95-4.95a7 7 0 010-9.9zM10 11a2 2 0 100-4 2 2 0 000 4z" clipRule="evenodd" />
             </svg>

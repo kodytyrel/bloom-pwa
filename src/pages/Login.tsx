@@ -33,9 +33,9 @@ export default function Login() {
     <div className="min-h-screen bg-cream-50 flex flex-col">
       {/* Header */}
       <div className="bg-gradient-to-b from-forest-500 to-forest-600 px-6 pt-16 pb-12 text-center">
-        <p className="text-forest-100 text-sm mb-1">Materials Tracker</p>
-        <h1 className="text-4xl font-bold text-white">Bloom</h1>
-        <p className="text-forest-200 text-sm mt-2">Track materials for every job</p>
+        <p className="text-forest-100 text-sm leading-normal mb-1">Materials Tracker</p>
+        <h1 className="text-4xl font-bold text-white leading-tight">Bloom</h1>
+        <p className="text-forest-200 text-sm leading-normal mt-3">Track materials for every job</p>
       </div>
 
       {/* Form */}

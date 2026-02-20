@@ -30,10 +30,23 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
   background-color: #FDFBF7;
   color: #162819;
+  line-height: 1.5;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  -webkit-tap-highlight-color: transparent;
 }
 
 html {
   overscroll-behavior: none;
+}
+
+/* Ensure minimum tap target sizes on mobile */
+button, a, [role="button"] {
+  min-height: 44px;
+  min-width: 44px;
+}
+
+/* Fix input zoom on iOS */
+input, select, textarea {
+  font-size: 16px;
 }
