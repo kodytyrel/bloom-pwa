@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <rect width="512" height="512" rx="96" fill="#2D5A3D"/>
+  <g transform="translate(256,256)">
+    <!-- Leaf/bloom icon -->
+    <path d="M0,-120 C60,-120 120,-60 120,0 C120,60 60,120 0,120 C-60,120 -120,60 -120,0 C-120,-60 -60,-120 0,-120Z" fill="#5F9D6C" opacity="0.6"/>
+    <path d="M-85,-85 C-25,-85 35,-25 35,35 C35,95 -25,155 -85,155" fill="none" stroke="#FDFBF7" stroke-width="8" opacity="0.4"/>
+    <path d="M0,-80 C40,-80 80,-40 80,0 C80,40 40,80 0,80 C-40,80 -80,40 -80,0 C-80,-40 -40,-80 0,-80Z" fill="#A5C1AD" opacity="0.5"/>
+    <path d="M0,-40 C20,-40 40,-20 40,0 C40,20 20,40 0,40 C-20,40 -40,20 -40,0 C-40,-20 -20,-40 0,-40Z" fill="#FDFBF7" opacity="0.8"/>
+    <!-- Center dot -->
+    <circle cx="0" cy="0" r="12" fill="#C4704B"/>
+  </g>
+  <text x="256" y="440" text-anchor="middle" font-family="sans-serif" font-size="72" font-weight="bold" fill="#FDFBF7">BLOOM</text>
+</svg>
